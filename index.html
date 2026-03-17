@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>24 Letters for My Musmusty's 24th💌</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-hearts"></div>
+
+  <header class="hero">
+    <h1>24 Letters for My superhero's 24th 💌</h1>
+    <p class="subtitle">
+    because turning 24 deserves 24 little pieces of love.
+    </p>
+    <button class="main-btn" onclick="scrollToLetters()">Open Your Letters</button>
+  </header>
+
+  <section class="letters-section" id="letters">
+    <h2>Choose a Letter 📬</h2>
+    <div class="letters-grid" id="lettersGrid"></div>
+  </section>
+
+  <section class="photos-section">
+    <h2>Our Little Memories 📸</h2>
+    <p class="section-text">
+    </p>
+
+    <div class="photo-gallery">
+    <img src="photo1.jpg" alt="Memory 1" />
+<img src="photo2.jpg" alt="Memory 2" />
+<img src="photo3.jpg" alt="Memory 3" />
+<img src="photo4.jpg" alt="Memory 4" />
+    </div>
+  </section>
+
+  <section class="voice-section">
+    <h2>A Little Voice from Fedouchaa </h2>
+    <p class="section-text">
+    </p>
+
+    <audio controls>
+      <source src="voice1.mp3.ogg" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <section class="final-section">
+    <div class="final-card">
+      <h2>Happy 24th Birthday, My Favorite Person 🤍</h2>
+      <p>
+        No matter how many letters I write, they still won’t be enough to explain
+        how special you are to me. You deserve softness happiness laughter
+        peace and every beautiful thing life can offer.
+      </p>
+      <p>
+        Thank you for being you my musmusty
+      </p>
+      <p class="signature">much love Fedoutek 💙</p>
+    </div>
+  </section>
+
+  <div class="modal" id="letterModal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h3 id="modalTitle"></h3>
+      <p id="modalText"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
